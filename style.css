@@ -1,0 +1,30 @@
+body {
+    background-color: powderblue;
+    color: blue;
+    font-family: Verdana;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+@font-face {
+    font-family: MabryPro;
+    src: url(Mabry-Pro-Black.ttf);
+}
+
+.weird {
+    font-family: MabryPro;
+
+}
+
+.container {
+    background-color: coral;
+    width: auto;
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px;
+    column-gap: 10px;
+    row-gap: 15px;
+}
+
+.item {
+}
