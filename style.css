@@ -1,5 +1,5 @@
 body {
-    background-color: powderblue;
+    background-color: rgb(255, 130, 108);
     color: black;
     font-family: MabryPro;
     font-size: 30px;
@@ -12,33 +12,27 @@ body {
     src: url(Mabry-Pro-Black.ttf);
 }
 
-.weird {
-    font-family: MabryPro;
-
-}
 
 .blocks {
     /* the wrapper for all the squared elements*/
     justify-content: center;
-    padding: 50px;
+    padding: 1%;
     display: grid;
-    width: auto;
-    height: auto;
-    background-color: rgb(255, 130, 108);
-    column-gap: 10px;
-    row-gap: 15px;
-    aspect-ratio: 1;
-    grid-template-columns: 20% 20% 20% 20%;
-    @media (pointer:none), (pointer:coarse) {
+    height: 110%;
+    column-gap: 1%;
+    row-gap: 1%;
+    
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    @media (pointer:none),
+    (pointer:coarse) {
+        grid-template-columns: 1fr;
     }
-    grid-template-areas:
-        "name . . .>"
-        ". bio . blog ."
-        "photography films contact store";
 
 }
 
 .item {
+    aspect-ratio: 1;
     border: 5px solid black;
     border-style: dotted;
     padding: 20px;
