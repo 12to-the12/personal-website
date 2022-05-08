@@ -23,7 +23,7 @@ body {
     display: grid;
     width: full;
     height: auto;
-    background-color: tomato;
+    background-color: rgb(255, 130, 108);
     column-gap: 10px;
     row-gap: 15px;
     grid-template-columns: 500px 500px 500px 500px;
@@ -39,18 +39,35 @@ body {
     border: 5px solid black;
     border-style: dotted;
     padding: 20px;
-    
+
 }
 
 .name {
     font-family: MabryPro;
     font-size: 50px;
-    background-color: yellow;
+    background-color: #ffd000;
     padding: 50px;
     /*background-clip: content-box;*/
 
 }
 
+.bio {
+    padding: 70px;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    /* align vertical */
+}
+
 .empty {
     border: none;
+}
+
+.hyper {
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    /* align horizontal */
+    align-items: center;
+    /* align vertical */
 }
