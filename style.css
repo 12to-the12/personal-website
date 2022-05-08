@@ -100,3 +100,12 @@ body {
     outline-style: dotted;
     border-style:none;
 }
+
+.header {
+    font-size: 100px;
+    background-color: #ffd000;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
