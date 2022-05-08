@@ -46,15 +46,16 @@ body {
 
 .item {
     aspect-ratio: 1;
-    border: 5px solid black;
+    border: 10px solid black;
     border-style: dotted;
     padding: 20px;
+    background-color: rgb(35, 195, 136);
 
 }
 
 .name {
     font-family: MabryPro;
-    font-size: 50px;
+    font-size: 70px;
     background-color: #ffd000;
     padding: 50px;
     /*background-clip: content-box;*/
@@ -62,15 +63,15 @@ body {
 }
 
 .bio {
-    padding: 70px;
+    padding: 20px;
     font-size: 30px;
-    display: flex;
-    align-items: center;
-    /* align vertical */
+    background-color: rgb(106, 178, 250);
 }
 
 .empty {
     border: none;
+    background-color: rgb(255, 130, 108);
+
 }
 
 .hyper {
@@ -80,4 +81,22 @@ body {
     /* align horizontal */
     align-items: center;
     /* align vertical */
+
+}
+
+.hyper:hover {
+    background-color: rgb(253, 111, 151);
+    color: black;
+}
+
+#response {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.blog {
+    outline: 20px solid black;
+    outline-style: dotted;
+    border-style:none;
 }
