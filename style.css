@@ -17,14 +17,12 @@ body {
 }
 
 .container {
-    background-color: coral;
-    width: auto;
+    background-color: red;
+    width: 5vw;
     display: grid;
-    grid-template-columns: 200px 200px 200px;
-    grid-template-rows: 200px 200px 200px;
-    column-gap: 10px;
-    row-gap: 15px;
+    grid-template-rows: 100px 100px 100px 500px 200px;
 }
 
 .item {
+    
 }
