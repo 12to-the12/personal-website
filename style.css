@@ -19,15 +19,18 @@ body {
 
 .blocks {
     /* the wrapper for all the squared elements*/
+    justify-content: center;
     padding: 50px;
     display: grid;
-    width: full;
+    width: auto;
     height: auto;
     background-color: rgb(255, 130, 108);
     column-gap: 10px;
     row-gap: 15px;
-    grid-template-columns: 500px 500px 500px 500px;
-    grid-template-rows: 500px 500px 500px 500px;
+    aspect-ratio: 1;
+    grid-template-columns: 20% 20% 20% 20%;
+    @media (pointer:none), (pointer:coarse) {
+    }
     grid-template-areas:
         "name . . .>"
         ". bio . blog ."
