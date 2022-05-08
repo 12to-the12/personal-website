@@ -12,21 +12,34 @@ body {
     src: url(Mabry-Pro-Black.ttf);
 }
 
+/* mobile */
 
-.blocks {
-    /* the wrapper for all the squared elements*/
-    justify-content: center;
-    padding: 1%;
-    display: grid;
-    height: 110%;
-    column-gap: 1%;
-    row-gap: 1%;
-    
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-
-    @media (pointer:none),
-    (pointer:coarse) {
+@media screen and (max-width: 900px) {
+    .blocks {
+        /* the wrapper for all the squared elements*/
+        justify-content: center;
+        padding: 1%;
+        display: grid;
+        height: 110%;
+        column-gap: 1%;
+        row-gap: 1%;
         grid-template-columns: 1fr;
+    }
+}
+
+/* desktop */
+@media screen and (min-width: 900px) {
+    .blocks {
+        /* the wrapper for all the squared elements*/
+        justify-content: center;
+        padding: 1%;
+        display: grid;
+        height: 110%;
+        column-gap: 1%;
+        row-gap: 1%;
+
+
+        grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 
 }
