@@ -1,7 +1,8 @@
 body {
     background-color: powderblue;
-    color: blue;
-    font-family: Verdana;
+    color: black;
+    font-family: MabryPro;
+    font-size: 30px;
     font-weight: 500;
     line-height: 1.5;
 }
@@ -16,13 +17,40 @@ body {
 
 }
 
-.container {
-    background-color: red;
-    width: 5vw;
+.blocks {
+    /* the wrapper for all the squared elements*/
+    padding: 50px;
     display: grid;
-    grid-template-rows: 100px 100px 100px 500px 200px;
+    width: full;
+    height: auto;
+    background-color: tomato;
+    column-gap: 10px;
+    row-gap: 15px;
+    grid-template-columns: 500px 500px 500px 500px;
+    grid-template-rows: 500px 500px 500px 500px;
+    grid-template-areas:
+        "name . . .>"
+        ". bio . blog ."
+        "photography films contact store";
+
 }
 
 .item {
+    border: 5px solid black;
+    border-style: dotted;
+    padding: 20px;
     
+}
+
+.name {
+    font-family: MabryPro;
+    font-size: 50px;
+    background-color: yellow;
+    padding: 50px;
+    /*background-clip: content-box;*/
+
+}
+
+.empty {
+    border: none;
 }
