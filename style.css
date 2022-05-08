@@ -62,7 +62,7 @@ body {
 
 }
 
-.bio {
+.pane {
     padding: 20px;
     font-size: 30px;
     background-color: rgb(106, 178, 250);
@@ -73,6 +73,7 @@ body {
     background-color: rgb(255, 130, 108);
 
 }
+
 
 .hyper {
     font-size: 70px;
@@ -87,6 +88,8 @@ body {
 .hyper:hover {
     background-color: rgb(253, 111, 151);
     color: black;
+    border: 20px solid black;
+    border-style: dotted;
 }
 
 #response {
@@ -108,4 +111,9 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.bold {
+    color:rgb(24, 52, 114);
+    font-size: 50px;
 }
