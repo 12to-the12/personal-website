@@ -105,9 +105,9 @@ body {
 }
 
 .header {
+    padding: 0px;
     font-size: 100px;
     background-color: #ffd000;
-    padding: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -116,4 +116,12 @@ body {
 .bold {
     color:rgb(24, 52, 114);
     font-size: 50px;
+}
+
+.portfolio {
+    color: white;
+}
+
+.thumbnail {
+    height:200px;   
 }
