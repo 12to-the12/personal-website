@@ -1,0 +1,62 @@
+
+body {
+    background-color: rgb(255, 130, 108);
+    color: black;
+    font-family: MabryPro;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+@font-face {
+    font-family: MabryPro;
+    src: url(fonts/Mabry-Pro-Black.ttf);
+}
+
+/* mobile */
+
+@media screen and (max-width: 900px) {
+    .blocks {
+        /* the wrapper for all the squared elements*/
+        justify-content: center;
+        padding: 1%;
+        display: grid;
+        height: 110%;
+        column-gap: 1%;
+        row-gap: 1%;
+        grid-template-columns: 1fr;
+    }
+}
+
+/* desktop */
+@media screen and (min-width: 900px) {
+    .blocks {
+        /* the wrapper for all the squared elements*/
+        justify-content: center;
+        padding: 1%;
+        display: grid;
+        height: 110%;
+        column-gap: 1%;
+        row-gap: 1%;
+
+
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+}
+
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+  }
+
+
+.portfolio {
+    background: blue;
+    color :white;
+    width: 100px;
+    height: 400px;
+    border: 20px solid violet;
+    flex-grow:1;
+}
